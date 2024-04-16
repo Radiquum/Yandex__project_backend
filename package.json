@@ -1,0 +1,29 @@
+{
+  "name": "yandex__project_backend",
+  "version": "1.0.0",
+  "description": "yandex practicum 5th project",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Radiquum/Yandex__project_backend.git"
+  },
+  "keywords": [
+    "node",
+    "backend",
+    "games",
+    "voting"
+  ],
+  "author": "Radiquum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Radiquum/Yandex__project_backend/issues"
+  },
+  "homepage": "https://github.com/Radiquum/Yandex__project_backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

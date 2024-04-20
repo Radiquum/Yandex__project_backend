@@ -16,10 +16,11 @@ const server = http.createServer((req, res) => {
       break;
     case "/vote":
       voteRouteController(req, res);
+      break;
     default:
       defaultRouteController(res, req.url);
       break;
   }
 });
 
-server.listen(3000);
+server.listen(3005);
